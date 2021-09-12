@@ -5,11 +5,11 @@
 3. я тут не совсем понял задачу. если нужно просто обнулить удаленный файл, то, зная PID, мы находим его дескриптор через lsof и командой : > /proc/PID/fd/number очищаем файл.
 4. как я понял они потребляют, но очень мало
 5. ну в первую секунду больше всего вызовов пришлось на 
-   /proc/PID/stat
-   /proc/PID/status
-   /proc/PID/cmdline
+   /proc/PID/stat;
+   /proc/PID/status;
+   /proc/PID/cmdline;
    но были и другие:
-   /usr/lib/
+   /usr/lib/;
    /lib/
 6. uname. Part of the utsname information is also accessible via /proc/sys/kernel/{ostype, hostname, osrelease, version, domainname}
 7. && используется для объединения последовательного выполнения команд. Вторая команда выполнится только в случае удачного выполнения первой.
