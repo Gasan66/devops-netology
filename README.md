@@ -1,10 +1,16 @@
 # 3.3. Операционные системы, лекция 1
 
-1. stat("/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+1. chdir("/tmp")
 2. /usr/share/misc/magic.mgc
 3. я тут не совсем понял задачу. если нужно просто обнулить удаленный файл, то, зная PID, мы находим его дескриптор через lsof и командой : > /proc/PID/fd/number очищаем файл.
 4. как я понял они потребляют, но очень мало
-5. я использовал команду strace --trace=/open*. -t opensnoop-bpfcc. за первую секунду было почти 700 вызовов. нужно все их вывести? 
+5. ну в первую секунду больше всего вызовов пришлось на 
+   /proc/PID/stat
+   /proc/PID/status
+   /proc/PID/cmdline
+   но были и другие:
+   /usr/lib/
+   /lib/
 6. uname. Part of the utsname information is also accessible via /proc/sys/kernel/{ostype, hostname, osrelease, version, domainname}
 7. && используется для объединения последовательного выполнения команд. Вторая команда выполнится только в случае удачного выполнения первой.
    ; не ждет завершения предыдущей команды
