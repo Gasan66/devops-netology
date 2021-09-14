@@ -1,3 +1,30 @@
+# 3.3. Операционные системы, лекция 2
+2. node_cpu_seconds_total{cpu="0",mode="system"} 42.45
+node_cpu_seconds_total{cpu="0",mode="user"} 80.75
+node_memory_MemFree_bytes gauge
+node_disk_io_time_seconds_total 
+node_network_receive_drop_total
+3. 
+4. походу можно. 
+Booting paravirtualized kernel on Xen HVM
+xen_netfront: Initialising Xen virtual ethernet driver
+systemd[1]: Detected virtualization xen.
+5. fs.nr_open = 1048576. - возможное кол-во открытых дескрипторов по умолчанию. я так понял что /etc/security/limits.conf не даст достигнуть этого значения.
+6. root@ip-172-31-9-40:~# nsenter --target 1311 --pid --mount
+root@ip-172-31-9-40:/# ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3   8968  3980 pts/1    S+   18:51   0:00 /bin/bash
+root           8  0.0  0.0   7236   528 pts/1    S    18:51   0:00 sleep 1h
+root          31  0.0  0.4  10040  4976 pts/2    S    18:57   0:00 -bash
+root          42  0.0  0.3  10624  3360 pts/2    R+   18:57   0:00 ps aux
+7. я так понял, что номализовал это безобразие некий pids controller. изменить ограничение вроде б как можно в /sys/fs/cgroup/pids/user.slice/user-1000.slice/pids.max 
+
+
+
+
+
+
+
 # 3.3. Операционные системы, лекция 1
 
 1. chdir("/tmp")
