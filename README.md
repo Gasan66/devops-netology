@@ -1,4 +1,17 @@
 # 3.3. Операционные системы, лекция 2
+1. <p>[Unit]<br>
+    Description=example systemd service unit file.
+   </p>
+
+   <p>[Service]<br>
+    EnvironmentFile=/usr/local/bin/simpleUnit.conf<br>
+    ExecStart=/usr/local/bin/simpleUnit.sh $ARG1 $ARG2 $ARG3
+   </p>
+
+   <p>[Install]<br>
+    WantedBy=multi-user.target
+   </p>
+
 2. node_cpu_seconds_total{cpu="0",mode="system"} 42.45
 node_cpu_seconds_total{cpu="0",mode="user"} 80.75
 node_memory_MemFree_bytes gauge
