@@ -1,3 +1,29 @@
+# 3.5. Файловые системы
+
+2. насколько я понял, жесткие ссылки не являются отдельным объектом (файлом), поэтому на них нельзя устанавливать права и менять владельца
+3. 
+4. sudo fdisk /dev/xvdb (n p 1 +2G) (n p 2 остаток) (w). В скобках указал параметры вводимые в интерактивном режиме
+5. sudo sfdisk -d /dev/xvdb > part_table<br>
+sudo sfdisk /dev/xvdf < part_table
+6. sudo mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/xvdb1 /dev/xvdf1
+7. sudo mdadm --create /dev/md1 --level=0 --raid-devices=2 /dev/xvdb2 /dev/xvdf2
+8. sudo pvcreate /dev/md0 /dev/md1<br>
+9. sudo vgcreate vol_grp1 /dev/md0 /dev/md1<br>
+10. sudo lvcreate -L 100M -n logical_vol1 vol_grp1 /dev/md1<br>
+11. sudo mkfs.ext4 /dev/vol_grp1/logical_vol1<br>
+12. mkdir /tmp/new<br>
+sudo mount /dev/vol_grp1/logical_vol1 /tmp/new<br>
+13. 
+14. 
+15. 
+16. sudo pvmove -n logical_vol1 /dev/md1 /dev/md0
+17. sudo mdadm /dev/md0 -f /dev/xvdb1
+
+
+
+
+
+
 # 3.3. Операционные системы, лекция 2
 1. <p>[Unit]<br>
     Description=example systemd service unit file.
