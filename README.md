@@ -26,12 +26,16 @@ sudo mount /dev/vol_grp1/logical_vol1 /tmp/new<br>
 
 # 3.3. Операционные системы, лекция 2
 1. <p>[Unit]<br>
-    Description=example systemd service unit file.
+    Description=Node Exporter<br>
+    After=network.target
    </p>
 
    <p>[Service]<br>
     EnvironmentFile=/usr/local/bin/simpleUnit.conf<br>
-    ExecStart=/usr/local/bin/simpleUnit.sh $ARG1 $ARG2 $ARG3
+   User=node_exporter<br>
+   Group=node_exporter<br>
+   Type=simple<br>
+   ExecStart=/usr/local/bin/node_exporter $ARG1<br>
    </p>
 
    <p>[Install]<br>
