@@ -1,3 +1,58 @@
+# 3.7. Компьютерные сети, лекция 2
+1. Работаю на ubuntu. Использую команду ip. (ip a|addr|address). Интерфейсы:
+   1. lo
+   2. eth0
+2. llpd. пакет lldpd. команда lldpctl
+3. VLAN. пакет vlan. команды:
+   1. sudo apt install vlan
+   2. sudo ip link add link eth0 name vlan4 type vlan id 10
+   3. sudo ip addr add 192.168.0.1/24 dev vlan4
+   4. sudo ip link set up vlan4
+   5. ip a:
+      1. ![](//https://ibb.co/xmFxkcz)
+4. 
+   1. типы агрегации:
+      1. статический
+      2. динамический
+   2. опции для балансировки:
+      1. mode=0 (balance-rr)
+      2. mode=2 (balance-xor)
+      3. mode=5 (balance-tlb)
+      4. mode=6 (balance-alb)
+   3. конфиг:<p>
+      iface bond0 inet static<br>
+address 10.0.1.5<br>
+netmask 255.255.255.0<br>
+network 10.0.1.0<br>
+gateway 10.0.1.254<br>
+bond_mode balance-tlb<br>
+bond_miimon 100<br>
+bond_downdelay 200<br>
+bond_updelay 200<br>
+slaves eth0 eth1</p>
+5.  
+   1. адресов 6 
+   2. сетей 32
+   3. подсети:
+      1. 10.10.10.0/29
+      2. 10.10.10.8/29
+      3. 10.10.10.16/29
+6. 
+   1. 100.64.0.0/10
+   2. 100.64.0.0/26
+7. 
+   1. ip neigh
+   2. sudo ip neigh flush all
+   3. sudo ip neighbour flush to
+   
+
+
+
+
+
+
+
+
 # 3.6. Компьютерные сети, лекция 1
 1. 301 Moved Permanently - значит что ресурс перемещен на постоянной основе.
 2. Дольше всего выполнялся запрос "https://sb.scorecardresearch.com/cs/17440561/beacon.js".
