@@ -9,7 +9,7 @@
    3. sudo ip addr add 192.168.0.1/24 dev vlan4
    4. sudo ip link set up vlan4
    5. ip a:
-      1. ![](//ibb.co/xmFxkcz)
+      1. ![](https://ibb.co/xmFxkcz)
 4. 
    1. типы агрегации:
       1. статический
