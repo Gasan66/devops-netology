@@ -1,5 +1,7 @@
 # 3.8. Компьютерные сети, лекция 3
-
+2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/dummy%20and%20route.png)
+3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/tcp%20and%20udp.png)
+4. ![]()
 # 3.7. Компьютерные сети, лекция 2
 1. Работаю на ubuntu. Использую команду ip. (ip a|addr|address). Интерфейсы:
    1. lo
