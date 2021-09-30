@@ -1,3 +1,10 @@
+# 3.9. Элементы безопасности информационных систем
+1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/391.jpg)
+2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/392.jpg)
+3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/393)
+4. ![](https://github.com/Gasan66/devops-netology/blob/main/images/394)
+5. ![](https://github.com/Gasan66/devops-netology/blob/main/images/395)
+6. ![](https://github.com/Gasan66/devops-netology/blob/main/images/396)
 # 3.8. Компьютерные сети, лекция 3
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/dummy%20and%20route.png)
 3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/tcp%20and%20udp.png)
