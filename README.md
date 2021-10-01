@@ -5,6 +5,7 @@
 4. ![](https://github.com/Gasan66/devops-netology/blob/main/images/394.png)
 5. ![](https://github.com/Gasan66/devops-netology/blob/main/images/395.png)
 6. ![](https://github.com/Gasan66/devops-netology/blob/main/images/396.png)
+7. ![](https://github.com/Gasan66/devops-netology/blob/main/images/397.jpg)
 # 3.8. Компьютерные сети, лекция 3
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/dummy%20and%20route.png)
 3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/tcp%20and%20udp.png)
