@@ -27,6 +27,7 @@
      done<br>
      ((i+=1))<br>
    done</p>
+4. 
 # 3.9. Элементы безопасности информационных систем
 1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/391.jpg)
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/392.jpg)
