@@ -11,23 +11,7 @@
    break<br>
    fi<br>
    done</p>
-3. <p>'i=0'<br>
-   'while [ $i != 5 ]; do'<br>
-     'nc -z 192.168.0.1 80'<br>
-     host1=$?<br>
-     nc -z 173.194.222.113 80<br>
-     host2=$?<br>
-     nc -z 87.250.250.242 80<br>
-     host3=$?<br>
-     array=("Результат 192.168.0.1 - ${host1}"<br>
-   "Результат 173.194.222.113 - ${host2}"<br>
-            "Результат 87.250.250.242 - ${host3}")<br>
-     for el in "${array[@]}"; do<br>
-       echo $el >> log.txt<br>
-     done<br>
-     ((i+=1))<br>
-   done</p>
-4. 
+3. ![](https://github.com/Gasan66/devops-netology/blob/main/4.1/task3)
 # 3.9. Элементы безопасности информационных систем
 1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/391.jpg)
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/392.jpg)
