@@ -11,7 +11,7 @@
    break<br>
    fi<br>
    done</p>
-3. ![](https://github.com/Gasan66/devops-netology/blob/main/4.1/task3)
+3. [Задание 3](https://github.com/Gasan66/devops-netology/blob/main/4.1/task3)
 # 3.9. Элементы безопасности информационных систем
 1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/391.jpg)
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/392.jpg)
