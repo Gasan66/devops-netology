@@ -1,3 +1,11 @@
+# 4.2. Использование Python
+1. 
+   1. нельзя сложить str и int.
+   2. c = str(a) + b
+   3. c= a + int(b)
+2. Убрал break. [Script](https://github.com/Gasan66/devops-netology/blob/main/4.2/4.2.2)
+3. [Script](https://github.com/Gasan66/devops-netology/blob/main/4.2/4.2.2)
+4. [Script](https://github.com/Gasan66/devops-netology/blob/main/4.2/4.2.4)
 # 4.1. Командная оболочка Bash
 1. В переменной $c будет содержаться "a+b", так как в баше все строка. В $d будет содержаться 1+2, произошла 
 конкатенация. В $e уже будет сумма равная 3.
