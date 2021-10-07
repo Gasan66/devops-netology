@@ -12,7 +12,7 @@ while [ $is_bad_connection = False ]; do
       echo $ip >> log.log
       is_bad_connection=True
     fi
-    echo $ip
+
   done
 
 done
