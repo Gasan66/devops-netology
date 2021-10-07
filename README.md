@@ -14,7 +14,7 @@
    curl http://localhost:5000<br>
    if (($? != 0))<br>
    then<br>
-   date >> curl.log<br>
+   date > curl.log<br>
    else<br>
    break<br>
    fi<br>
