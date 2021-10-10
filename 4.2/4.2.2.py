@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 import os
+import sys
 
-
-abspath = '/Users/gasan/Netology/devops-netology/'
+abspath = sys.argv[1]
 
 bash_command = [f"cd {abspath}", "git status"]
 if os.path.exists(os.path.abspath(abspath) + '/.git'):
