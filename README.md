@@ -1,3 +1,15 @@
+# 5.2. Применение принципов IaaC в работе с виртуальными машинами
+1. 
+   1. Основные преимущества IaaC: идентичность настроек всех ландшафтов, бэкап настроек, культура инженерного состава.
+   2. Основопологающий принцип на мой взгляд это идемпотентность.
+2. 
+   1. У ansible низкий порог входа и push модель.
+   2. pull более надежен, но требует установки агентов.
+3. 
+   1. [Parallels Desktop](https://github.com/Gasan66/devops-netology/blob/main/images/parallels.png)
+   2. [Vagrant](https://github.com/Gasan66/devops-netology/blob/main/images/vagrant.png)
+   3. [Ansible](https://github.com/Gasan66/devops-netology/blob/main/images/ansible.png)
+
 # 5.1. Введение в виртуализацию. Типы и функции гипервизоров. Обзор рынка вендоров и областей применения.
 1. 
    1. Аппаратная виртуализация - гипервизор является и ОС. Нет прослойки в виде ОС.
