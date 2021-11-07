@@ -6,7 +6,7 @@
    1. У ansible низкий порог входа и push модель.
    2. pull более надежен, но требует установки агентов.
 3. 
-   1. Parallels Desktop [](https://github.com/Gasan66/devops-netology/blob/main/images/parallels.png)
+   1. Parallels Desktop ![](https://github.com/Gasan66/devops-netology/blob/main/images/parallels.png)
    2. [Vagrant](https://github.com/Gasan66/devops-netology/blob/main/images/vagrant.png)
    3. [Ansible](https://github.com/Gasan66/devops-netology/blob/main/images/ansible.png)
 
