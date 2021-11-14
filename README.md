@@ -1,3 +1,16 @@
+# 5.3. Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера
+1. Image ![](https://hub.docker.com/r/gasan66/customnginx)
+2. d
+   1. VM
+   2. Container
+   3. Container
+   4. Container
+   5. Container
+   6. Container
+   7. VM
+   8. VM
+3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/533.png)
+4. Image ![](https://hub.docker.com/r/gasan66/ansible)
 # 5.2. Применение принципов IaaC в работе с виртуальными машинами
 1. 
    1. Основные преимущества IaaC: идентичность настроек всех ландшафтов, бэкап настроек, культура инженерного состава.
