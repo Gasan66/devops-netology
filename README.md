@@ -1,6 +1,6 @@
 # 5.3. Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера
 1. Image ![](https://hub.docker.com/r/gasan66/customnginx)
-2. d
+2. 
    1. VM
    2. Container
    3. Container
