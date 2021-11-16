@@ -3,7 +3,6 @@
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/542.png)
 3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/543.png)
 # 5.3. Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера
-1. [Image](https://hub.docker.com/r/gasan66/customnginx)
 2. 
    1. VM
    2. Container

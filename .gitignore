@@ -1,0 +1,4 @@
+/5.4/src/terraform/.terraform/
+/5.4/src/terraform/.terraform.lock.hcl
+/5.4/src/terraform/terraform.tfstate
+/5.2/vagrant/.vagrant/
