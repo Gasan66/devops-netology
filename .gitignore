@@ -39,3 +39,6 @@ override.tf.json
 terraform.rc
 
 *.retry
+
+*.idea*
+*.vagrant*
