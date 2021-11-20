@@ -1,3 +1,9 @@
+#5.5. Оркестрация кластером Docker контейнеров на примере Docker Swarm
+1. 
+   1. replicated - количество сервисов указывается нами
+   2. global - сервис запускается на каждой ноде
+   3. Кластер использует Raft
+   4. Overlay Network - сеть для создания кластера swarm.
 # 5.4. Оркестрация группой Docker контейнеров на примере Docker Compose
 1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/541.png)
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/542.png)
