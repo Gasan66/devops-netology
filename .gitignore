@@ -42,3 +42,4 @@ terraform.rc
 
 *.idea*
 *.vagrant*
+/6.2/data/

@@ -1,3 +1,20 @@
+# 6.2. SQL
+1. [File](https://github.com/Gasan66/devops-netology/blob/main/6.2/stack.yml)
+2. 
+   1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/dblist.png)
+   2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/tabledesc.png)
+   3. SELECT * from test_db.pg_catalog.pg_user pu;
+   4. ![](https://github.com/Gasan66/devops-netology/blob/main/images/users.png)
+3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/value.png)
+4. 
+   update clients set order_id  = 3 where surname = 'Иванов Иван Иванович';<br>
+   update clients set order_id  = 4 where surname = 'Петров Петр Петрович';<br>
+   update clients set order_id  = 5 where surname = 'Иоганн Себастьян Бах';<br>
+   ![](https://github.com/Gasan66/devops-netology/blob/main/images/624.png)
+5. ![](https://github.com/Gasan66/devops-netology/blob/main/images/625.png)
+6. sd
+   1. pg_dump -U test-admin-user test_db > /backup/test_db.dump
+   2. psql -U test-admin-user test_db < /backup/test_db.dump
 # 6.1. Типы и структура СУБД
 1. 
    1. Документо-ориентированные
