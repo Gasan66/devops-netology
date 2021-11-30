@@ -1,3 +1,11 @@
+# 6.3. MySQL
+1. 
+   1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6311.png)
+   2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6312.png)
+2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/632.png)
+3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/633.png)
+4. [File](https://github.com/Gasan66/devops-netology/blob/main/6.3/my.cnf)
+
 # 6.2. SQL
 1. [File](https://github.com/Gasan66/devops-netology/blob/main/6.2/stack.yml)
 2. 
