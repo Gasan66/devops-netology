@@ -1,3 +1,14 @@
+# 6.4. PostgreSQL
+1. 
+   1. вывод списка БД - \l
+   2. подключения к БД - \c
+   3. вывода списка таблиц - \dt
+   4. вывода описания содержимого таблиц - \d+ 
+   5. выхода из psql - \q
+2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/642.png)
+3. [File](https://github.com/Gasan66/devops-netology/blob/main/6.4/shard) "Ручное" разбиение можно было исключить на этапе проектирования, если сразу задать приложению условие как распределять данные по табличкам.
+4. [File](https://github.com/Gasan66/devops-netology/blob/main/6.4/backup/test_database.dump)
+
 # 6.3. MySQL
 1. 
    1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6311.png)

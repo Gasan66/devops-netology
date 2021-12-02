@@ -1,0 +1,19 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres:13
+    restart: always
+    volumes:
+      - ./data:/var/lib/postgresql/data
+#      - ./newdata:/var/lib/postgresql/data
+      - ./backup:/backup
+    environment:
+      POSTGRES_DB: "test_db"
+      POSTGRES_USER: "test-admin-user"
+      POSTGRES_PASSWORD: "test-admin-user"
+      PGDATA: "/var/lib/postgresql/data"
+    ports:
+      - 5432:5432
