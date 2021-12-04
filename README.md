@@ -36,7 +36,7 @@ SET default_table_access_method = heap;
 
 CREATE TABLE public.orders (
     id integer NOT NULL,
-    title_new character varying(80) NOT NULL,
+    **title_new** character varying(80) NOT NULL,
     price integer DEFAULT 0
 );
 
@@ -76,7 +76,7 @@ ALTER TABLE ONLY public.orders ALTER COLUMN id SET DEFAULT nextval('public.order
 -- Data for Name: orders; Type: TABLE DATA; Schema: public; Owner: test-admin-user
 --<br>
 
-COPY public.orders (id, title_new, price) FROM stdin;
+COPY public.orders (id, **title_new**, price) FROM stdin;
 1	War and peace	100
 2	My little database	500
 3	Adventure psql time	300
