@@ -8,9 +8,9 @@
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/642.png)
 3. [File](https://github.com/Gasan66/devops-netology/blob/main/6.4/shard) "Ручное" разбиение можно было исключить на этапе проектирования, если сразу задать приложению условие как распределять данные по табличкам.
 3. <p>
---
+-- <br>
 -- PostgreSQL database dump
---
+--<br>
 
 -- Dumped from database version 13.5 (Debian 13.5-1.pgdg110+1)
 -- Dumped by pg_dump version 13.5 (Debian 13.5-1.pgdg110+1)
@@ -30,9 +30,9 @@ SET default_tablespace = '';
 
 SET default_table_access_method = heap;
 
---
+--<br>
 -- Name: orders; Type: TABLE; Schema: public; Owner: test-admin-user
---
+--<br>
 
 CREATE TABLE public.orders (
     id integer NOT NULL,
@@ -43,9 +43,9 @@ CREATE TABLE public.orders (
 
 ALTER TABLE public.orders OWNER TO "test-admin-user";
 
---
+--<br>
 -- Name: orders_id_seq; Type: SEQUENCE; Schema: public; Owner: test-admin-user
---
+--<br>
 
 CREATE SEQUENCE public.orders_id_seq
     AS integer
@@ -58,23 +58,23 @@ CREATE SEQUENCE public.orders_id_seq
 
 ALTER TABLE public.orders_id_seq OWNER TO "test-admin-user";
 
---
+--<br>
 -- Name: orders_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: test-admin-user
---
+--<br>
 
 ALTER SEQUENCE public.orders_id_seq OWNED BY public.orders.id;
 
 
---
+--<br>
 -- Name: orders id; Type: DEFAULT; Schema: public; Owner: test-admin-user
---
+--<br>
 
 ALTER TABLE ONLY public.orders ALTER COLUMN id SET DEFAULT nextval('public.orders_id_seq'::regclass);
 
 
---
+--<br>
 -- Data for Name: orders; Type: TABLE DATA; Schema: public; Owner: test-admin-user
---
+--<br>
 
 COPY public.orders (id, title_new, price) FROM stdin;
 1	War and peace	100
@@ -88,24 +88,24 @@ COPY public.orders (id, title_new, price) FROM stdin;
 \.
 
 
---
+--<br>
 -- Name: orders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: test-admin-user
---
+--<br>
 
 SELECT pg_catalog.setval('public.orders_id_seq', 8, true);
 
 
---
+--<br>
 -- Name: orders orders_pkey; Type: CONSTRAINT; Schema: public; Owner: test-admin-user
---
+--<br>
 
 ALTER TABLE ONLY public.orders
     ADD CONSTRAINT orders_pkey PRIMARY KEY (id);
 
 
---
+--<br>
 -- PostgreSQL database dump complete
---
+--<br>
 </p>
 
 # 6.3. MySQL
