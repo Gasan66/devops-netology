@@ -10,7 +10,7 @@
 4. <p>
    CREATE TABLE public.orders (<br>
        id integer NOT NULL,<br>
-       **title_new**  character varying(80) NOT NULL,<br>
+       **title_new** character varying(80) NOT NULL,<br>
        price integer DEFAULT 0<br>
    );<br>
    
