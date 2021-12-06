@@ -1,3 +1,24 @@
+# 6.6
+1. 
+   1. 
+   2. настроить логирование и использовать explain
+2. 
+
+# 6.5. Elasticsearch
+1. ew
+   1. [Dockerfile](https://github.com/Gasan66/devops-netology/blob/main/6.5/Dockerfile)
+   2. https://hub.docker.com/repository/docker/gasan66/elastic
+   3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6513.png)
+2. ыв
+   1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6521.png)
+   2. На сколько я понял в нашем случае желтый статус возникает по причине отсутствия возможности складывать реплики шардов.
+3. 
+   1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6531.png =250x250)
+   2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6532.png =250x250)
+   3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6533.png =250x250)
+   4. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6534.png =250x250)
+   5. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6535.png =250x250)
+
 # 6.4. PostgreSQL
 1. 
    1. вывод списка БД - \l
