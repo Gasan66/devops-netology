@@ -13,13 +13,27 @@
    1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6521.png)
    2. На сколько я понял в нашем случае желтый статус возникает по причине отсутствия возможности складывать реплики шардов.
 3. 
-   1.<kbd> <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6531.png" alt="Kitten"
-	title="A cute kitten" width="800" height="200" /> </kbd>
-   3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6531.png =250x250)
-   4. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6532.png =250x250)
-   5. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6533.png =250x250)
-   6. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6534.png =250x250)
-   7. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6535.png =250x250)
+   1. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6531.png" alt="6531"
+      title="6531" width="800" height="200" /> 
+      </kbd>
+      
+   2. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6532.png" alt="6532"
+      title="6532" width="800" height="200" /> 
+      </kbd>
+   3. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6533.png" alt="6533"
+      title="6533" width="800" height="200" /> 
+      </kbd>
+   4. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6534.png" alt="6534"
+      title="6534" width="800" height="200" /> 
+      </kbd>
+   5. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6535.png" alt="6535"
+      title="6535" width="800" height="200" /> 
+      </kbd>
 
 # 6.4. PostgreSQL
 1. 
