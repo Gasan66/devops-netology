@@ -14,7 +14,7 @@
    2. На сколько я понял в нашем случае желтый статус возникает по причине отсутствия возможности складывать реплики шардов.
 3. 
    1. <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6531.png" alt="Kitten"
-	title="A cute kitten" width="150" height="100" />
+	title="A cute kitten" width="400" height="100" />
    2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6531.png =250x250)
    3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6532.png =250x250)
    4. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6533.png =250x250)
