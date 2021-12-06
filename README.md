@@ -15,24 +15,24 @@
 3. 
    1. <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6531.png" alt="6531"
-      title="6531" width="800" height="200" /> 
+      title="6531"/> 
       </kbd>
       
    2. <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6532.png" alt="6532"
-      title="6532" width="800" height="200" /> 
+      title="6532"/> 
       </kbd>
    3. <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6533.png" alt="6533"
-      title="6533" width="800" height="200" /> 
+      title="6533"/> 
       </kbd>
    4. <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6534.png" alt="6534"
-      title="6534" width="800" height="200" /> 
+      title="6534"/> 
       </kbd>
    5. <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6535.png" alt="6535"
-      title="6535" width="800" height="200" /> 
+      title="6535"/> 
       </kbd>
 
 # 6.4. PostgreSQL
