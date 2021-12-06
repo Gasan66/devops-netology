@@ -8,9 +8,15 @@
 1. 
    1. [Dockerfile](https://github.com/Gasan66/devops-netology/blob/main/6.5/Dockerfile)
    2. https://hub.docker.com/repository/docker/gasan66/elastic
-   3. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6513.png)
+   3. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6513.png" alt="6513"
+      title="6513"/> 
+      </kbd>
 2. 
-   1. ![](https://github.com/Gasan66/devops-netology/blob/main/images/6521.png)
+   1. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6521.png" alt="6521"
+      title="6521"/> 
+      </kbd>
    2. На сколько я понял в нашем случае желтый статус возникает по причине отсутствия возможности складывать реплики шардов.
 3. 
    1. <kbd> 
