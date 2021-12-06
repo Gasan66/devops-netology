@@ -8,21 +8,21 @@
 2. ![](https://github.com/Gasan66/devops-netology/blob/main/images/642.png)
 3. [File](https://github.com/Gasan66/devops-netology/blob/main/6.4/shard) "Ручное" разбиение можно было исключить на этапе проектирования, если сразу задать приложению условие как распределять данные по табличкам.
 4. <p>
-   CREATE TABLE public.orders (
-       id integer NOT NULL,
-       **title_new**  character varying(80) NOT NULL,
-       price integer DEFAULT 0
-   );
+   CREATE TABLE public.orders (<br>
+       id integer NOT NULL,<br>
+       **title_new**  character varying(80) NOT NULL,<br>
+       price integer DEFAULT 0<br>
+   );<br>
    
-   COPY public.orders (id, **title_new**, price) FROM stdin;
-   1	War and peace	100
-   2	My little database	500
-   3	Adventure psql time	300
-   4	Server gravity falls	300
-   5	Log gossips	123
-   6	WAL never lies	900
-   7	Me and my bash-pet	499
-   8	Dbiezdmin	501
+   COPY public.orders (id, **title_new**, price) FROM stdin;<br>
+   1	War and peace	100<br>
+   2	My little database	500<br>
+   3	Adventure psql time	300<br>
+   4	Server gravity falls	300<br>
+   5	Log gossips	123<br>
+   6	WAL never lies	900<br>
+   7	Me and my bash-pet	499<br>
+   8	Dbiezdmin	501<br>
    </p>
 
 # 6.3. MySQL
