@@ -1,8 +1,10 @@
-# 6.6
+# 6.6. Troubleshooting
 1. 
-   1. 
-   2. настроить логирование и использовать explain
-2. 
+   1. Сначала я найду этот запрос командой db.currentOp({"sec_running":{$qte: 180}}), затем применю killSessionsю
+   2. Вычислить запрос из-за которого деградирует база и использовать explain для анализа проблемы.
+2. На сколько я понял у редиса есть встроенные механизмы работы с истекшими ключами. Соотношение истекших ключей к общему количеству превышает 25%, те редис начинает блокировать записи, чтобы снизиться до 25%.
+3. Такая ситуация может возникать, если в одном или нескольких запросах идет запись миллионов строк. Мы можем увеличить время таймаута net_read_timeout.
+4. При нехватке памяти postgres начинает прибивать процессы. Можно либо отключить эту опцию, но лучше проверить настройки памяти для железа.
 
 # 6.5. Elasticsearch
 1. 
@@ -14,31 +16,25 @@
       </kbd>
 2. 
    1. <kbd> 
-      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6521.png" alt="6521"
-      title="6521"/> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6521.png" alt="6521" title="6521"/> 
       </kbd>
    2. На сколько я понял в нашем случае желтый статус возникает по причине отсутствия возможности складывать реплики шардов.
 3. 
    1. <kbd> 
-      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6531.png" alt="6531"
-      title="6531"/> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6531.png" alt="6531" title="6531"/> 
       </kbd>
       
    2. <kbd> 
-      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6532.png" alt="6532"
-      title="6532"/> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6532.png" alt="6532" title="6532"/>
       </kbd>
    3. <kbd> 
-      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6533.png" alt="6533"
-      title="6533"/> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6533.png" alt="6533" title="6533"/> 
       </kbd>
    4. <kbd> 
-      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6534.png" alt="6534"
-      title="6534"/> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6534.png" alt="6534" title="6534"/>
       </kbd>
    5. <kbd> 
-      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6535.png" alt="6535"
-      title="6535"/> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/6535.png" alt="6535" title="6535"/> 
       </kbd>
 
 # 6.4. PostgreSQL
