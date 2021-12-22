@@ -5,7 +5,7 @@
    </kbd>
 2. d
    1. При помощи Packer
-   2. 
+   2. https://github.com/Gasan66/devops-netology/tree/main/terraform/demo
 # 7.1. Инфраструктура как код
 1. 
    1. 
