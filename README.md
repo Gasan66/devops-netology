@@ -1,3 +1,11 @@
+# 7.2. Облачные провайдеры и синтаксис Терраформ
+1. <kbd> 
+   <img src="https://github.com/Gasan66/devops-netology/blob/main/images/721.png" alt="721"
+   title="721"/> 
+   </kbd>
+2. d
+   1. При помощи Packer
+   2. 
 # 7.1. Инфраструктура как код
 1. 
    1. 
