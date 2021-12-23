@@ -23,15 +23,49 @@ data "aws_caller_identity" "current" {}
 
 data "aws_region" "current" {}
 
+locals {
+  web_instance_type_map = {
+    stage = "t2.nano"
+    prod  = "t2.micro"
+  }
+  web_instance_count_map = {
+    stage = 1
+    prod  = 2
+  }
+  instances = {
+    "t2.nano" = data.aws_ami.ubuntu.id
+    "t2.micro" = data.aws_ami.ubuntu.id
+  }
+}
+
 resource "aws_instance" "my_instance" {
   ami           = data.aws_ami.ubuntu.id
-  instance_type = "t2.micro"
-#  description = "netology"
-#  root_device_name    = "/dev/sda"
+  instance_type = local.web_instance_type_map[terraform.workspace]
+  count = local.web_instance_count_map[terraform.workspace]
+
+  lifecycle {
+   create_before_destroy = true
+  }
 
   ebs_block_device {
     device_name = "/dev/sda"
-    #    snapshot_id = "snap-xxxxxxxx"
+    volume_size = 8
+  }
+
+  tags = {
+    Name = "netology"
+  }
+}
+
+resource "aws_instance" "my_instance2" {
+  for_each = local.instances
+
+  ami           = each.value
+  instance_type = each.key
+
+
+  ebs_block_device {
+    device_name = "/dev/sda"
     volume_size = 8
   }
 

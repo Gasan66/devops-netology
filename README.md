@@ -1,3 +1,13 @@
+# 7.3. Основы и принцип работы Терраформ
+2. ew
+   1. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/732.png" alt="732"
+      title="732"/> 
+      </kbd>
+   2. Выполняя все условия задачи (использование count и for each) получилось, что для прода создается 4 инстанса. Вывод команды запихал в файл, показалось что так удобнее.<br>
+      [tfPlanProd](https://github.com/Gasan66/devops-netology/blob/main/7.3/tfPlanProd)
+
+
 # 7.2. Облачные провайдеры и синтаксис Терраформ
 1. <kbd> 
    <img src="https://github.com/Gasan66/devops-netology/blob/main/images/721.png" alt="721"

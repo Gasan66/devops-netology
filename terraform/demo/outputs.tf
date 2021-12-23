@@ -11,10 +11,10 @@ output "aws_region" {
 }
 
 output "private_ip" {
-  value = aws_instance.my_instance.private_ip
+  value = aws_instance.my_instance.*.private_ip
 }
 
 output "net_id" {
-  value = aws_instance.my_instance.subnet_id
+  value = aws_instance.my_instance.*.subnet_id
 }
 
