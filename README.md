@@ -1,5 +1,5 @@
 # 7.3. Основы и принцип работы Терраформ
-2. ew
+2. 
    1. <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/images/732.png" alt="732"
       title="732"/> 
