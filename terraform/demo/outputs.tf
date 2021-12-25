@@ -10,11 +10,11 @@ output "aws_region" {
   value = data.aws_region.current.name
 }
 
-output "private_ip" {
-  value = aws_instance.my_instance.*.private_ip
-}
-
-output "net_id" {
-  value = aws_instance.my_instance.*.subnet_id
-}
+#output "private_ip" {
+#  value = module.my_instance.*.private_ip
+#}
+#
+#output "net_id" {
+#  value = module.my_instance.*.subnet_id
+#}
 

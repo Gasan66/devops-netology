@@ -1,3 +1,12 @@
+# 7.4. Средства командной работы над инфраструктурой
+1. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/741.png" alt="741"
+      title="741"/> 
+      </kbd>
+2. [atlantis](https://github.com/Gasan66/devops-netology/blob/main/7.4/atlantis.yaml)
+   [server](https://github.com/Gasan66/devops-netology/blob/main/7.4/server.yaml)
+3. 
+
 # 7.3. Основы и принцип работы Терраформ
 2. 
    1. <kbd> 
