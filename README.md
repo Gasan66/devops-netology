@@ -3,7 +3,7 @@
       <img src="https://github.com/Gasan66/devops-netology/blob/main/images/741.png" alt="741"
       title="741"/> 
       </kbd>
-2. [atlantis](https://github.com/Gasan66/devops-netology/blob/main/7.4/atlantis.yaml)
+2. [atlantis](https://github.com/Gasan66/devops-netology/blob/main/7.4/atlantis.yaml)<br>
    [server](https://github.com/Gasan66/devops-netology/blob/main/7.4/server.yaml)
 3. [terraform](https://github.com/Gasan66/devops-netology/tree/main/terraform)
 
