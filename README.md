@@ -22,7 +22,7 @@
    <img src="https://github.com/Gasan66/devops-netology/blob/main/images/721.png" alt="721"
    title="721"/> 
    </kbd>
-2. d
+2. 
    1. При помощи Packer
    2. https://github.com/Gasan66/devops-netology/tree/main/terraform/demo
 # 7.1. Инфраструктура как код
