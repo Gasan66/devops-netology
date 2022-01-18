@@ -14,6 +14,7 @@
 
        fmt.Println("In", input, "meters", output, "foots")
        }
+      ~~~
    2. ~~~
       package main
 
@@ -27,6 +28,7 @@
        sort.Ints(x)
        fmt.Println(x[0])
        }
+      ~~~
    3. ~~~
       package main
 
@@ -39,6 +41,7 @@
               }
           }
       }
+      ~~~
       
 
 # 7.4. Средства командной работы над инфраструктурой
