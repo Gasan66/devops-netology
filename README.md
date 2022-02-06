@@ -1,3 +1,12 @@
+# 7.6. Написание собственных провайдеров для Terraform.
+1. [resource и data_source](https://github.com/hashicorp/terraform-provider-aws/blob/db1ab4cfcb7ca407398753b158037c4e94472c6b/internal/provider/provider.go#L376-L1852)
+2. 
+   1. [Параметр name конфликтует с параметром name_prefix](https://github.com/hashicorp/terraform-provider-aws/blob/db1ab4cfcb7ca407398753b158037c4e94472c6b/internal/service/sqs/queue.go#L87)
+   2. Вроде 26 символов
+   3. [[:xdigit:]]{%d}%s$
+
+
+
 # 7.5. Основы golang
 3. 
    1. ~~~
