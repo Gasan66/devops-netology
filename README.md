@@ -1,3 +1,7 @@
+# 09.01 Жизненный цикл ПО
+1. [BUG NTGY](https://github.com/Gasan66/devops-netology/blob/main/9.1/BUG_NTGY.xml)
+2. [TASK NTGY](https://github.com/Gasan66/devops-netology/blob/main/9.1/TASK_NTGY.xml)
+
 # 7.6. Написание собственных провайдеров для Terraform.
 1. [resource и data_source](https://github.com/hashicorp/terraform-provider-aws/blob/db1ab4cfcb7ca407398753b158037c4e94472c6b/internal/provider/provider.go#L376-L1852)
 2. 
