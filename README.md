@@ -1,5 +1,8 @@
 # 09-ci-03-cicd
-1. [Sonar](https://github.com/Gasan66/devops-netology/blob/main/9.3/93Sonar.png)
+1. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/9.3/93Sonar.png" alt="931"
+      title="931"/> 
+      </kbd>
 2. [Nexus](https://github.com/Gasan66/devops-netology/blob/main/9.3/93maven-metadata.xml)
 3. [Maven](https://github.com/Gasan66/devops-netology/blob/main/9.3/93pom.xml)
 
