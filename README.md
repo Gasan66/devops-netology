@@ -1,3 +1,8 @@
+# 09-ci-03-cicd
+1. [Sonar](https://github.com/Gasan66/devops-netology/blob/main/9.3/93Sonar.png)
+2. [Nexus](https://github.com/Gasan66/devops-netology/blob/main/9.3/93maven-metadata.xml)
+3. [Maven](https://github.com/Gasan66/devops-netology/blob/main/9.3/93pom.xml)
+
 # 09.01 Жизненный цикл ПО
 1. [BUG NTGY](https://github.com/Gasan66/devops-netology/blob/main/9.1/BUG_NTGY.xml)
 2. [TASK NTGY](https://github.com/Gasan66/devops-netology/blob/main/9.1/TASK_NTGY.xml)
