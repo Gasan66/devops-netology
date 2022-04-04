@@ -37,6 +37,10 @@
       <img src="https://github.com/Gasan66/devops-netology/blob/main/images/10_2_4.png" alt="10_2_4"
       title="10_2_4"/> 
    </kbd>
+5. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/images/10_2_5.png" alt="10_2_5"
+      title="10_2_5"/> 
+   </kbd>
 
 
 # 10.01. Зачем и что нужно мониторить
