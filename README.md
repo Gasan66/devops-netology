@@ -3,10 +3,18 @@
       <img src="https://github.com/Gasan66/devops-netology/blob/main/10.3/10_3_1.png" alt="10_3_1"
       title="10_3_1"/> 
    </kbd>
-2. <kbd> 
-      <img src="https://github.com/Gasan66/devops-netology/blob/main/10.3/10_3_23.png" alt="10_3_23"
-      title="10_3_23"/> 
-   </kbd>
+2. 
+   1. 100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)
+   2. avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100
+      avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100
+      avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[15m])) * 100
+   3. node_memory_MemFree_bytes
+   4. node_filesystem_size_bytes{fstype="ext4"}
+   
+      <kbd> 
+         <img src="https://github.com/Gasan66/devops-netology/blob/main/10.3/10_3_23.png" alt="10_3_23"
+         title="10_3_23"/> 
+      </kbd>
 3. [Dashboard](https://github.com/Gasan66/devops-netology/blob/main/10.3/10_3_4.json)
 
 
