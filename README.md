@@ -5,9 +5,9 @@
    </kbd>
 2. 
    1. 100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)
-   2. avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100
-      avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100
-      avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[15m])) * 100
+   2. avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100 <br>
+      avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100 <br>
+      avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[15m])) * 100 <br>
    3. node_memory_MemFree_bytes
    4. node_filesystem_size_bytes{fstype="ext4"}
    
@@ -421,14 +421,7 @@ slaves eth0 eth1</p>
    2. sudo ip neigh flush all
    3. sudo ip neighbour flush to
    
-
-
-
-
-
-
-
-
+   
 # 3.6. Компьютерные сети, лекция 1
 1. 301 Moved Permanently - значит что ресурс перемещен на постоянной основе.
 2. Дольше всего выполнялся запрос "https://sb.scorecardresearch.com/cs/17440561/beacon.js".
