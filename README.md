@@ -1,3 +1,15 @@
+# 10.03. Grafana
+1. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/10.3/10_3_1.png" alt="10_3_1"
+      title="10_3_1"/> 
+   </kbd>
+2. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/10.3/10_3_23.png" alt="10_3_23"
+      title="10_3_23"/> 
+   </kbd>
+3. [Dashboard](https://github.com/Gasan66/devops-netology/blob/main/10.3/10_3_4.json)
+
+
 # 10.2. Системы для мониторинга
 1. Модели:
    1. Плюсы Push:
