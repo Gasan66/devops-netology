@@ -1,3 +1,13 @@
+# 10.04. ELK
+1. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/10.4/10_4_1.png" alt="10_4_1"
+      title="10_4_1"/> 
+   </kbd>
+2. <kbd> 
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/10.4/10_4_2.png" alt="10_4_2"
+      title="10_4_2"/> 
+   </kbd>
+
 # 10.03. Grafana
 1. <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/10.3/10_3_1.png" alt="10_3_1"
