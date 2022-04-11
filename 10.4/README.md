@@ -13,7 +13,7 @@ Logs  <kbd>
          title="10_4_3"/> 
       </kbd>
 
-[docker-compose](https://github.com/Gasan66/devops-netology/blob/main/10.4/docker-compose.yml)
-[docker-compose](https://github.com/Gasan66/devops-netology/blob/main/10.4/configs/filebeat.yml)
-[docker-compose](https://github.com/Gasan66/devops-netology/blob/main/10.4/configs/logstash.yml)
+[docker-compose](https://github.com/Gasan66/devops-netology/blob/main/10.4/docker-compose.yml) <br>
+[filebeat](https://github.com/Gasan66/devops-netology/blob/main/10.4/configs/filebeat.yml) <br>
+[logstash](https://github.com/Gasan66/devops-netology/blob/main/10.4/configs/logstash.yml) <br>
 
