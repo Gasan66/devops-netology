@@ -43,5 +43,3 @@ terraform.rc
 *.idea*
 *.vagrant*
 /6.2/data/
-/13.1/prod/
-/13.1/stage/
