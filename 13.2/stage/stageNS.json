@@ -1,0 +1,10 @@
+{
+  "apiVersion": "v1",
+  "kind": "Namespace",
+  "metadata": {
+    "name": "132stage",
+    "labels": {
+      "name": "132stage"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: back
+  name: back
+  namespace: 132prod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: back
+  template:
+    metadata:
+      labels:
+        app: back
+    spec:
+      containers:
+        - image: praqma/network-multitool:alpine-extra
+          imagePullPolicy: IfNotPresent
+          name: network-multitool
+          volumeMounts:
+            - mountPath: "/back"
+              name: prod-volume
+      volumes:
+        - name: prod-volume
+          persistentVolumeClaim:
+            claimName: prod-pvc
+      terminationGracePeriodSeconds: 30
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: back
+  namespace: prod
+spec:
+  ports:
+    - name: web
+      port: 80
+  selector:
+    app: back
