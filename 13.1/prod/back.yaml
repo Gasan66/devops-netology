@@ -19,6 +19,9 @@ spec:
         - image: praqma/network-multitool:alpine-extra
           imagePullPolicy: IfNotPresent
           name: network-multitool
+          env:
+            - name: db_adress
+              value: "10.233.30.146"
       terminationGracePeriodSeconds: 30
 
 ---
