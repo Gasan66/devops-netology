@@ -2,7 +2,7 @@
 
 ## Создание карты <br>
    <kbd> 
-      <img src="https://github.com/Gasan66/devops-netology/blob/main/14.2/1.png" alt="create"
+      <img src="https://github.com/Gasan66/devops-netology/blob/main/14.3/1.png" alt="create"
       title="create"/> 
    </kbd>
 
