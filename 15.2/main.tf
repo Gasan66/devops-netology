@@ -27,7 +27,7 @@ resource "yandex_vpc_subnet" "public" {
 
 // Create Static Access Keys
 resource "yandex_iam_service_account_static_access_key" "sa-static-key" {
-  service_account_id = "ajeqcqd0dc7v4624h5j6"
+  service_account_id = ""
   description        = "static access key for object storage"
 }
 
