@@ -50,7 +50,7 @@ resource "yandex_storage_object" "picture" {
 resource "yandex_compute_instance_group" "group1" {
   name                = "group1"
   folder_id           = "b1gef0er4511elohdc2q"
-  service_account_id  = "ajeqcqd0dc7v4624h5j6"
+  service_account_id  = ""
   deletion_protection = false
   instance_template {
     platform_id = "standard-v3"
