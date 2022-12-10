@@ -7,7 +7,7 @@
    </kbd>
 2. Создаем тестовое приложение. <br> 
    [app](https://gitlab.com/abduragimov.ga/app) <br>
-   [config](https://gitlab.com/abduragimov.ga/config/diploma-app) <br>
+   [config](https://gitlab.com/abduragimov.ga/config/-/tree/main/diploma-app) <br>
    Запуливаем его в кубер. Под под названием diploma1.
    <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/diploma/diploma.png" alt="diploma"
