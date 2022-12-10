@@ -5,7 +5,10 @@
       <img src="https://github.com/Gasan66/devops-netology/blob/main/diploma/k8s.png" alt="k8s"
       title="k8s"/> 
    </kbd>
-2. Создаем тестовое приложение. [app](https://gitlab.com/abduragimov.ga/app). Запуливаем его в кубер. Под под названием diploma1.
+2. Создаем тестовое приложение. <br> 
+   [app](https://gitlab.com/abduragimov.ga/app) <br>
+   [config](https://gitlab.com/abduragimov.ga/config) <br>
+   Запуливаем его в кубер. Под под названием diploma1.
    <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/diploma/diploma.png" alt="diploma"
       title="diploma"/> 
@@ -20,7 +23,7 @@
       <img src="https://github.com/Gasan66/devops-netology/blob/main/diploma/grafana.png" alt="grafana"
       title="grafana"/> 
    </kbd>
-4. CI настроен в гитлабе. [gitlab-ci](https://gitlab.com/abduragimov.ga/app/-/blob/main/.gitlab-ci.yml)
+4. CI настроен в гитлабе. [gitlab-ci](https://gitlab.com/abduragimov.ga/config/-/blob/main/.gitlab-ci.yml)
    <kbd> 
       <img src="https://github.com/Gasan66/devops-netology/blob/main/diploma/CI.png" alt="CI"
       title="CI"/> 
